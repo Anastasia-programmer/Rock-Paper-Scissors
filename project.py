@@ -9,18 +9,31 @@ numberOfTrials=roundNumber=1
 numberOfWins=numberOfLosses=numberOfDraws=0
 numberofplayers=1
 options=["rock", "paper","scissors"]
-print(" Welcome to the Rock, Paper, Scissors game! ")
+print(""" 
+🌸 Welcome to Rock-Paper-Scissors, cutie! 🌸
+
+Let's play the classic game with a digital twist~
+You can choose to battle the computer 💻 
+or challenge a friend 👯♀️
+
+Rules are simple:
+✊ Rock crushes ✌ Scissors
+✋ Paper covers ✊ Rock
+✌ Scissors cut ✋ Paper
+
+Ready to show your strategic skills? Let's go! 🎀
+""")
 
 while True:
  numberofplayers=input("choose 1 for one player mode and 2 for two players mode:")
  def show_leaderboard():
-    print("\nLeaderboard:")
+    print("Leaderboard:")
     try:
         with open("game_results.txt", "r") as file:
             for line in file:
                 print(line)
     except FileNotFoundError:
-        print("file not found!")
+        print("file not found ")
  if numberofplayers=="1" :
   print("Please enter your name:")
   userName = input().strip()
@@ -117,7 +130,6 @@ while True:
                 exit()
             else:
               playAgain=input("Invalid input, please enter Y or N.").upper()
-
  else:
     print("Invalid input, please choose 1 or 2 for number of players.")
     
