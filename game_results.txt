@@ -1,0 +1,10 @@
+Dareen played 2 rounds with 2 trials. Wins: 2, Losses: 0, Draws: 0
+Yasser played 3 rounds with 3 trials. Wins: 1, Losses: 0, Draws: 2
+Darine played 2 rounds with 2 trials. Wins: 2, Losses: 0, Draws: 0
+Dareen played 2 rounds with 2 trials. Wins: 1, Losses: 0, Draws: 1
+Dareen,3,2,1,0
+darine played 3 rounds with 3 trials. Wins: 1, Losses: 2, Draws: 0
+darinnne played 3 rounds with 3 trials. Wins: 1, Losses: 1, Draws: 1
+Darine played 2 rounds  Wins: 1, Losses: 1, Draws: 0
+ with Yasser played 2 rounds  Wins: 1, Losses: 1, Draws: 0
+ 
