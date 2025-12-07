@@ -5,6 +5,7 @@ emojis={
     "scissors": "✌"
 }
 
+
 numberOfTrials=roundNumber=1
 numberOfWins=numberOfLosses=numberOfDraws=0
 numberofplayers=1
